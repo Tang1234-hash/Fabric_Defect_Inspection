@@ -1,0 +1,17 @@
+<view class="stat-wrap">
+  <view class="title">所有缺陷按布料位置从首至尾顺序排列</view>
+  <view class="stat-table">
+    <view class="table-row stat-head">
+      <!-- 原“数量”改为序号 -->
+      <view class="stat-td">序号</view>
+      <view class="stat-td">缺陷类别</view>
+      <view class="stat-td">位置(cm)</view>
+    </view>
+    <view class="table-row" wx:for="{{sortAllPos}}" wx:for-index="num" wx:key="pos">
+      <view class="stat-td">{{num + 1}}</view>
+      <view class="stat-td">{{item.type}}</view>
+      <view class="stat-td">{{item.pos}} cm</view>
+    </view>
+  </view>
+  <button class="back-btn" bindtap="goBack">返回表格页面</button>
+</view>

@@ -1,0 +1,85 @@
+<view class="page-title">白坯布缺陷检测</view>
+
+<view class="table-box">
+  <view class="table-head">
+    <view class="head-td col1">缺陷种类</view>
+    <view class="head-td col2">数量</view>
+    <view class="head-td col3">位置(cm)</view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">裂缝</view>
+    <view class="td col2">{{pos_defect.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_defect}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">胶水</view>
+    <view class="td col2">{{pos_glue.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_glue}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">灰尘</view>
+    <view class="td col2">{{pos_dust.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_dust}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">油污</view>
+    <view class="td col2">{{pos_oil.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_oil}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">磨损</view>
+    <view class="td col2">{{pos_wear.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_wear}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">黑线</view>
+    <view class="td col2">{{pos_blackline.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_blackline}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="table-row">
+    <view class="td col1">无缺陷</view>
+    <view class="td col2">{{pos_none.length}}</view>
+    <view class="td col3 pos-col">
+      <block wx:for="{{pos_none}}" wx:key="*this">
+        <text>{{item}} cm</text>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class="total-bar">
+  <text class="total-text">总计数量：{{totalNum}} 张</text>
+</view>
+
+<button class="stat-btn" bindtap="goStatPage">缺陷位置统计</button>

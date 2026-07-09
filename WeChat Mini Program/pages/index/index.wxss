@@ -1,0 +1,56 @@
+.page-title {
+  text-align: center;
+  font-size: 36rpx;
+  margin: 30rpx 0;
+}
+.table-box {
+  border: 1rpx solid #0088ff;
+  border-radius: 10rpx;
+  margin: 0 20rpx;
+}
+.table-head, .table-row {
+  display: flex;
+  flex-direction: row;
+}
+.head-td {
+  background: #0088ff;
+  color: #fff;
+  font-weight: bold;
+  padding: 20rpx 10rpx;
+}
+/* 三列宽度分配 */
+.col1 {
+  width: 28%;
+}
+.col2 {
+  width: 22%;
+}
+.col3 {
+  width: 50%;
+}
+.td {
+  padding: 15rpx 10rpx;
+  border-bottom: 1rpx solid #eee;
+  display: flex;
+  align-items: flex-start;
+}
+/* 位置列自动换行竖排 */
+.pos-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+}
+.total-bar {
+  background: #0088ff;
+  padding: 20rpx;
+  text-align: center;
+}
+.total-text {
+  color: #fff;
+  font-size: 32rpx;
+}
+.stat-btn {
+  margin: 30rpx 20rpx;
+  background: #0088ff;
+  color: #fff;
+}
