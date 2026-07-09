@@ -1,2 +1,2 @@
 # Fabric_Defect_Inspection
-OpenMV对白坯布进行粗检，小程序显示检测结果，精检部分(STM32主控端)位于master分支
+OpenMV对白坯布进行粗检，基于RT-Thread操作系统的STM32端对缺陷进行精检，最后结果上传小程序
