@@ -1,2 +1,2 @@
 # Fabric_Defect_Inspection
-对白坯布进行粗检，精检部分位于master分支
+OpenMV对白坯布进行粗检，精检部分(STM32主控端)位于master分支
