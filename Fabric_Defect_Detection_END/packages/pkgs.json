@@ -1,0 +1,32 @@
+[
+ {
+  "path": "/packages/iot/pahomqtt", 
+  "ver": "latest", 
+  "name": "PAHOMQTT"
+ }, 
+ {
+  "path": "/packages/iot/WiFi/rw007", 
+  "ver": "v2.1.0", 
+  "name": "RW007"
+ }, 
+ {
+  "path": "/packages/iot/iot_cloud/onenet", 
+  "ver": "latest", 
+  "name": "ONENET"
+ }, 
+ {
+  "path": "/packages/language/JSON/cJSON", 
+  "ver": "v1.7.17", 
+  "name": "CJSON"
+ }, 
+ {
+  "path": "/packages/system/enhanced-kservice/rt_vsnprintf_full", 
+  "ver": "latest", 
+  "name": "RT_VSNPRINTF_FULL"
+ }, 
+ {
+  "path": "/packages/ai/nnom", 
+  "ver": "latest", 
+  "name": "NNOM"
+ }
+]
