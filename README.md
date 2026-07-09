@@ -1,2 +1,2 @@
 # Fabric_Defect_Inspection
-检测白坯布缺陷，并且进行分类
+对白坯布进行粗检，精检部分位于master分支
